@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Simple Weather App</title>
+  </head>
+  <body>
+    <!--
+      This HTML file is a template.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
+    -->
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        
+
+        <div class="form-container">
+          <h3
+          class="title"
+        >
+          Simple Weather App
+        </h3>
+          
+          <div>
+            <form class="form">
+              <input type="text" name="search" id="inputSearch" placeholder="Search.." autocomplete="off">
+            <!-- <div class="card-search"></div> -->
+            <input type="submit" id="btnSearch" value="Submit">
+            </form>
+            
+          </div>
+            
+        
+        </div>
+
+        <div id="app">
+
+        </div>
+        
+      </div>
+    </div>
+
+    <footer class="text-center mt-30 p-6 text-sm text-gray-500">
+      <p>
+        Powered by
+        <a href="https://openweathermap.org/" target="_blank">https://openweathermap.org</a>
+        | Made by <a href="https://github.com/vladalvar">@vladalvar</a> for
+        <a href="https://github.com/">Github</a>
+      </p>
+    </footer>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="/_dist_/index.js"></script>
+  </body>
+</html>
